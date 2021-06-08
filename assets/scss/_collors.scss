@@ -1,0 +1,38 @@
+// Default Color List
+$c-bluedarkdark    : #0a3c50; // Dark Dark Blue
+$c-bluedark        : #225062; // Dark Blue
+$c-bluemedium      : #859ea8; // Medium Blue
+$c-bluelight       : #e7ecee; // Light Blue
+$c-bluelightlight  : #f3f5f6; // Light Light Blue
+$c-white           : #ffffff;
+$c-black           : #575757; // Black
+$c-text            : #5d7e8b;
+$c-sggreenlight    : #d9e34d;
+$c-sggreen         : #c8d700; // Signal Green
+$c-sggreendark     : #aabe00; // Signal Darker Green
+$c-sggreendarkdark : #87a119;
+
+
+$progress-blue-dark:  #061a35; 
+$progress-blue-medium:  #004269; 
+
+$new-bluelight: #c9e0e9;
+$new-blue: #009fe3;
+$new-orange: #ed6c05;
+
+
+// Usage
+$bluedarkdark: $progress-blue-dark !default;
+$bluedark: $c-bluedark !default;
+$bluemedium: $c-bluemedium !default;
+$bluelight: $c-bluelight !default;
+$bluelightlight: $c-bluelightlight !default;
+$white: $c-white !default;
+$black: $c-black !default;
+$sggreenlight: $c-sggreenlight !default;
+$sggreen: $c-sggreen !default;
+$sggreendark: $c-sggreendark !default;
+$sggreendarkdark: $c-sggreendarkdark !default;
+$default-text: $c-bluedark !default;
+
+

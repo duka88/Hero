@@ -1,0 +1,122 @@
+@mixin flex-center($align) {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: $align;
+  }
+  
+  @mixin flex-start($align) {
+    justify-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: $align;
+  }
+  
+  @mixin flex-between($align) {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: $align;
+  }
+  
+  @mixin flex-end($align) {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: $align;
+  }
+  
+  @mixin max-width {
+    max-width: 1257px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  @mixin grid($col, $gap) {
+    display: grid;
+    grid-template-columns: repeat($col, 1fr);
+    grid-gap: $gap;
+  }
+  
+  @mixin figure($padding) {
+    width: 100%;
+    position: relative;
+    margin: 0;
+    height: 0;
+    padding-bottom: $padding;
+  }
+  
+  @mixin bgCover($position) {
+    background-size: cover;
+    background-position: $position;
+    background-repeat: no-repeat;
+  }
+  
+  @mixin img-abs {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  @mixin img-auto {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+  }
+  
+  @mixin absolute-center($postition) {
+    position: $postition;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  @mixin gradient($color1, $color2) {   
+      background: -moz-linear-gradient(to top, $color1 0 ,$color2 50%);
+      background: -webkit-linear-gradient(to top, $color1 0 ,$color2 50%);
+      background: linear-gradient(to top, $color1 0 ,$color2 50%);  
+  }
+
+  @mixin dj-icons($icon) {
+    font-family: "dj-icons"; 
+    content: $icon;
+    display: block;
+  }
+  
+  @mixin scrollbarX() {
+    overflow: auto;
+    width: 100%;
+    scrollbar-color: $orange #EDDFC6 ;
+    scrollbar-width: thin;
+    -webkit-overflow-scrolling: touch;
+  
+    &::-webkit-scrollbar {
+      -webkit-appearance: none;
+      width: 4px;
+    }
+    &::-webkit-scrollbar:vertical {
+      width: 4px;
+    }
+    &::-webkit-scrollbar:horizontal {
+      height: 4px;
+    }
+    &::-webkit-scrollbar-track-piece {
+      background: #EDDFC6;
+      border-radius: 4px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background: $orange;
+      border-radius: 4px;
+    }
+    &::-webkit-scrollbar-button:end:increment {
+      display: block;
+      background: transparent;
+  
+      @media screen and (min-width: $tablet + 1) {
+        width: calc(100% - (100% - 80px));
+      }
+    }
+  }

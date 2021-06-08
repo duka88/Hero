@@ -1,0 +1,99 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 2941758, 2014-12-18T08:42:07-0500
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: HelveticaNeueLT-Light by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/neue-helvetica/helvetica-45-light/
+ * Copyright: Part of the digitally encoded machine readable outline data for producing the Typefaces provided is copyrighted &#x00A9; 1988 - 2006 Linotype GmbH, www.linotype.com. All rights reserved. This software is the property of Linotype GmbH, and may not be repro
+ *
+ * Webfont: HelveticaNeueLT-Roman by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/neue-helvetica/helvetica-55-roman/
+ * Copyright: Part of the digitally encoded machine readable outline data for producing the Typefaces provided is copyrighted &#x00A9; 1988 - 2006 Linotype GmbH, www.linotype.com. All rights reserved. This software is the property of Linotype GmbH, and may not be repro
+ *
+ * Webfont: HelveticaNeueLTStd-Cn by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/neue-helvetica/helvetica-57-condensed/
+ * Copyright: Copyright &#x00A9; 1990, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ *
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2941758
+ * Licensed pageviews: 250,000
+ *
+ * © 2014 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+/*@import url("//hello.myfonts.net/count/2ce33e");*/
+
+
+@font-face {
+    font-family: 'HelveticaNeueLT-Light';
+    src: url('/assets/webfonts/2CE33E_0_0.eot');
+    src: url('/assets/webfonts/2CE33E_0_0.eot?#iefix') format('embedded-opentype'),
+    url('/assets/webfonts/2CE33E_0_0.woff2') format('woff2'),
+    url('/assets/webfonts/2CE33E_0_0.woff') format('woff'),
+    url('/assets/webfonts/2CE33E_0_0.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'HelveticaNeueLT-Roman';
+    src: url('/assets/webfonts/2CE33E_1_0.eot');
+    src: url('/assets/webfonts/2CE33E_1_0.eot?#iefix') format('embedded-opentype'),
+    url('/assets/webfonts/2CE33E_1_0.woff2') format('woff2'),
+    url('/assets/webfonts/2CE33E_1_0.woff') format('woff'),
+    url('/assets/webfonts/2CE33E_1_0.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'HelveticaNeueLTStd-Cn';
+    src: url('/assets/webfonts/2CE33E_2_0.eot');
+    src: url('/assets/webfonts/2CE33E_2_0.eot?#iefix') format('embedded-opentype'),
+    url('/assets/webfonts/2CE33E_2_0.woff2') format('woff2'),
+    url('/assets/webfonts/2CE33E_2_0.woff') format('woff'),
+    url('/assets/webfonts/2CE33E_2_0.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'HelveticaNeueLTPro-Th';
+    src: url('/assets/webfonts/36C93A_0_0.eot');
+    src: url('/assets/webfonts/36C93A_0_0.eot?#iefix') format('embedded-opentype'),
+    url('/assets/webfonts/36C93A_0_0.woff2') format('woff2'),
+    url('/assets/webfonts/36C93A_0_0.woff') format('woff'),
+    url('/assets/webfonts/36C93A_0_0.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'HelveticaNeueWorld-55Roman';
+    src: url('/assets/webfonts/HelveticaNeueWorld-55Roman/font.woff2') format('woff2'),
+    url('/assets/webfonts/HelveticaNeueWorld-55Roman/font.woff') format('woff'),
+    url('/assets/webfonts/HelveticaNeueWorld-55Roman/font.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'HelveticaNeueWorld-75Bold';
+    src: url('/assets/webfonts/HelveticaNeueWorld-75Bold/font.woff2') format('woff2'),
+    url('/assets/webfonts/HelveticaNeueWorld-75Bold/font.woff') format('woff'),
+    url('/assets/webfonts/HelveticaNeueWorld-75Bold/font.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'UniversLTCYR-57Condensed';
+    src: url('/assets/webfonts/UniversLTCYR-57Condensed/font.woff2') format('woff2'),
+    url('/assets/webfonts/UniversLTCYR-57Condensed/font.woff') format('woff'),
+    url('/assets/webfonts/UniversLTCYR-57Condensed/font.ttf') format('truetype');
+}
+
+
+$UniversCondensed: 'UniversLTCYR-57Condensed', sans-serif;
+$HelveticBold: 'HelveticaNeueWorld-75Bold', sans-serif;
+$HelveticaRoman: 'HelveticaNeueWorld-55Roman', sans-serif;
+$HelveticaPro: 'HelveticaNeueLTPro-Th', sans-serif;
+$HelveticaLight: 'HelveticaNeueLT-Light', sans-serif;
+$HelveticaNeueLTRoman: 'HelveticaNeueLT-Roman', sans-serif;
+$HelveticaNeuel: 'HelveticaNeueLTStd-Cn', sans-serif;
+
+
+
+

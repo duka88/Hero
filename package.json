@@ -1,0 +1,16 @@
+{
+  "name": "Hero",
+  "version": "1.0.0",
+  "description": "Hero section",
+  "main": "index.html",
+  "scripts": {
+    "dev": "parcel assets/main.js --dist-dir dist --public-url ./ ",
+    "prod": "parcel build assets/main.js --dist-dir dist --public-url ./ "
+  },
+  "author": "DJankov",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-nightly.710",
+    "parcel": "^2.0.0-nightly.708"
+  }
+}
